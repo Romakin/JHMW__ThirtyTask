@@ -16,7 +16,7 @@ public class PersonBuilder {
         personSurname = surname;
         return this;
     }
-    
+
     public PersonBuilder setAge(int age) {
         if (age < 0)
             throw new IllegalArgumentException("Age must be more than 0");
